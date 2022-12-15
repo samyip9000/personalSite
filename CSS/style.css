@@ -1,0 +1,124 @@
+/* <style>
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');   
+</style>
+
+:root {
+    --colour1: #292c2e;
+    --colour2: #589ab0;
+    --colour3: #f5ebe1;
+}
+
+  
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: var(--colour1);
+    box-sizing: border-box;
+}
+
+
+body { background: url()
+background-repeat: no-repeat;
+background-size: cover; 
+
+}
+
+font-family: 'Rubik Glitch', cursive  */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* body,
+button {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bolder;
+} */
+
+table {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.firstSection {
+  background-image: radial-gradient(circle, WHITE,white,  rgb(214, 212, 212));
+  height: 1000px;
+}
+
+.secondSection {
+  background-color: whitesmoke;
+  height: 1000px;
+}
+
+.thirdSection {
+  background-color: white;
+  height: 1000px;
+}
+
+.forthSection {
+  background-color: whitesmoke;
+  height: 1000px;
+}
+
+.fifthSection {
+  background-color: white;
+  height: 1000px;
+}
+
+th {
+  border: 2px;
+}
+
+.circular--square {
+  border-radius: 20%;
+}
+
+h1 {
+  padding-left: 2%;
+  padding-top: 2%;
+
+}
+
+h3 {
+  padding-left: 2%;
+  padding-top: 2%;
+  
+}
+
+h4 {
+  padding-left: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+img {
+  object-fit: cover;
+  border: 0.2px solid rgb(160, 194, 239);
+
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 520px) {
+  img {
+    height: 150px;
+    width: 150px;
+  }
+
+  h1 {
+    font-size: 2px;
+    text-align: center;
+  }
+}
